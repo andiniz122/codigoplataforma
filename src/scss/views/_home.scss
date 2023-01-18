@@ -1,0 +1,33 @@
+.home {
+
+	.select-unidade {
+		width: 500px;
+		margin-bottom: 20px;
+	}
+
+	.card {
+		min-height: 200px;
+		min-width: 300px;
+	}
+
+	.card-medidor {
+
+		margin: auto;
+		margin-bottom: 30px;
+
+		.card-header {
+			text-align: center;
+		}
+
+		.card-body {
+			text-align: center;
+		}
+
+		max-width: 300px;
+	}
+
+	i {
+		margin-left: 5px;
+		text-shadow: none;
+	}
+}

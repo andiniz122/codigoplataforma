@@ -1,0 +1,52 @@
+.faturas {
+
+	i {
+		margin-right: 10px;
+	}
+
+	.list-item {
+		display: inline-flex;
+	}
+
+	.total {
+		font-size: 20px;
+		text-align: right;
+	}
+
+	.table-header {
+		border: 2px solid black;
+
+		div {
+			font-weight: 600;
+		}
+	}
+
+	.list-item-hidden {
+		padding: 0;
+		border: none;
+	}
+
+	.list-cell {
+		width: 100%;
+
+		button {
+			width: 118px;
+			margin-left: 10px;
+			margin-bottom: 10px;
+		}
+	}
+
+	.list-cell-buttons {
+		min-width: 130px;
+	}
+
+	.fatura-table {
+
+	}
+
+	.date-field {
+		margin-top: 3px;
+		margin-bottom: 20px;
+	}
+
+}

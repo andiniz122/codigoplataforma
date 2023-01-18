@@ -1,0 +1,6 @@
+{
+  "name": "listaTarifas",
+  "version": "1.0.2",
+  "private": true,
+  "main": "ListaTarifasAgua.js"
+}

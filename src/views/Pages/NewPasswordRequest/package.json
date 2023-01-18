@@ -1,0 +1,6 @@
+{
+  "name": "NewPasswordRequest",
+  "version": "0.0.0",
+  "private": true,
+  "main": "NewPasswordRequest.js"
+}

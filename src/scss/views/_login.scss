@@ -1,0 +1,24 @@
+.login {
+
+	background: url(assets/img/bg/bg2.jpg) no-repeat center center fixed;
+
+	h1 {
+		color: black;
+	}
+
+	.link-login {
+		color: white;
+		font-weight: bolder;
+		text-decoration: underline;
+	}
+
+	.alert {
+		top: 0;
+		position: absolute;
+		width: 100%;
+		text-align: center;
+		font-size: 18px;
+		font-weight: 800;
+	}
+
+}

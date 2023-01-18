@@ -1,0 +1,70 @@
+.app-header .navbar-nav {
+	padding-right: 20px;
+}
+
+.user-name {
+	margin-left: 10px;
+	padding-right: 3px;
+}
+
+.padding-right-7 {
+	padding-right: 7px;
+}
+
+.card-header {
+	background-color: theme-color("dark");
+	color: white;
+	font-weight: bold;
+}
+
+.app-header .navbar-brand {
+	width: 200px;
+
+	.navbar-brand-full {
+		width: 100%;
+		height: 100%;
+	}
+}
+
+.navbar-brand-minimized {
+	width: 100%;
+	height: 100%;
+}
+
+.spinner-results {
+	margin-left: 48%;
+	margin-bottom: 30px;
+	margin-top: 30px;
+
+	label {
+		margin-top: 20px;
+	}
+}
+
+.separator {
+	width: 100%;
+	border-bottom: 1px solid $gray-300;
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+
+.list-group-item.active {
+	background-color: $gray-600;
+	border-color: $gray-600;
+}
+
+.fa-tint {
+	color: #00aced !important;
+	text-shadow: 2px 1px 3px black;
+	font-size: 18px;
+}
+
+.fa-bolt {
+	color: #f5cb42 !important;
+	text-shadow: 1px 1px 3px black;
+	font-size: 18px;
+}
+
+.hide-upload {
+	display: none;
+}

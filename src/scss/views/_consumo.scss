@@ -1,0 +1,74 @@
+.consumo {
+
+	i {
+		margin-right: 10px;
+	}
+
+	h2 {
+		margin: auto;
+	}
+
+	.date-field {
+		margin-left: 15px;
+		margin-bottom: 15px;
+	}
+
+	.time-options {
+
+		min-width: 100px;
+		max-width: 250px;
+		margin-top: 15px;
+		margin-bottom: 15px;
+
+		.active {
+			background-color: $gray-700 !important;
+			color: theme-color('light') !important;
+		}
+
+		.time-margin {
+			margin-top: 15px;
+			margin-bottom: 15px;
+		}
+
+		.time-options-line {
+
+			label {
+				padding: 3px;
+				width: 50%;
+				border: 1px solid $gray-600;
+				background-color: $gray-300;
+				margin-bottom: 0;
+				text-align: center;
+
+				&:hover {
+					background-color: $gray-600;
+					cursor: pointer;
+					color: theme-color('light');
+				}
+
+			}
+
+		}
+
+		.time-options-line-mes {
+
+			label {
+				padding: 3px;
+				width: 25%;
+				border: 1px solid $gray-600;
+				background-color: $gray-300;
+				margin-bottom: 0;
+				text-align: center;
+
+				&:hover {
+					background-color: $gray-600;
+					cursor: pointer;
+					color: theme-color('light');
+				}
+
+			}
+		}
+
+	}
+
+}

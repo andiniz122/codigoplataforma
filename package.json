@@ -1,0 +1,86 @@
+{
+	"name": "@coreui/coreui-free-react-admin-template",
+	"version": "2.1.6",
+	"description": "Moritz Desenvolvimento",
+	"author": "Décio Moritz",
+	"homepage": "https://moritzdesenvolvimento.com.br",
+	"copyright": "Copyright 2017 Moritz Desenvolvimento",
+	"license": "",
+	"private": true,
+	"repository": {
+		"type": "git",
+		"url": "https://gitlab.com/deciomoritz/liciexpress-frontend"
+	},
+	"dependencies": {
+		"@coreui/coreui": "^2.1.9",
+		"@coreui/coreui-plugin-chartjs-custom-tooltips": "^1.2.0",
+		"@coreui/icons": "0.3.0",
+		"@coreui/react": "~2.1.5",
+		"axios": "^0.17.1",
+		"bootstrap": "^4.3.1",
+		"chart.js": "^2.9.3",
+		"classnames": "^2.2.6",
+		"core-js": "^2.6.5",
+		"enzyme": "^3.9.0",
+		"enzyme-adapter-react-16": "^1.11.2",
+		"flag-icon-css": "^3.3.0",
+		"font-awesome": "^4.7.0",
+		"lodash": "^4.17.5",
+		"moment": "^2.24.0",
+		"node-sass": "^4.14.1",
+		"prop-types": "^15.7.2",
+		"react": "^16.8.5",
+		"react-app-polyfill": "^0.2.2",
+		"react-big-calendar": "^0.20.4",
+		"react-chartjs-2": "^2.8.0",
+		"react-datasheet": "^1.3.14",
+		"react-datepicker": "^2.9.6",
+		"react-dom": "^16.8.5",
+		"react-fileupload-progress": "^0.5.0",
+		"react-flexbox-grid": "^2.0.0",
+		"react-joyride": "^2.1.1",
+		"react-masked-field": "^2.0.1",
+		"react-router-config": "^4.4.0-beta.8",
+		"react-router-dom": "~4.3.1",
+		"react-select": "^1.2.1",
+		"react-simple-tree-menu": "^1.1.5",
+		"react-spinners": "^0.2.5",
+		"react-test-renderer": "^16.8.5",
+		"react-virtualized": "^9.18.0",
+		"react-virtualized-select": "^3.1.1",
+		"reactstrap": "^7.1.0",
+		"reactstrap-pager": "^1.0.1",
+		"simple-line-icons": "^2.4.1"
+	},
+	"devDependencies": {
+		"react-scripts": "^2.1.8"
+	},
+	"scripts": {
+		"start": "react-scripts start",
+		"build": "react-scripts build",
+		"test": "react-scripts test",
+		"test:cov": "react-scripts test --coverage",
+		"test:debug": "react-scripts --inspect-brk test --runInBand",
+		"eject": "react-scripts eject"
+	},
+	"bugs": {
+		"url": "https://github.com/coreui/coreui-free-react-admin-template/issues"
+	},
+	"eslintConfig": {
+		"extends": "react-app"
+	},
+	"browserslist": [
+		">0.2%",
+		"not dead",
+		"not ie <= 9",
+		"not op_mini all"
+	],
+	"jest": {
+		"collectCoverageFrom": [
+			"src/**/*.{js,jsx}",
+			"!**/*index.js",
+			"!src/serviceWorker.js",
+			"!src/polyfill.js"
+		]
+	}
+}

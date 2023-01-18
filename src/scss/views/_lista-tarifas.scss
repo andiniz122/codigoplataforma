@@ -1,0 +1,74 @@
+.lista-tarifas {
+
+	.cell {
+		width: 150px;
+		background-color: white !important;
+
+		span {
+			padding-right: 5px;
+		}
+
+		& > input {
+			height: 21px !important;
+			width: 100% !important;
+			padding-right: 5px;
+		}
+	}
+
+	.cell.read-only {
+		background-color: $gray-100 !important;
+		color: theme-color("dark") !important;
+	}
+
+	.salvar-button {
+		margin-top: 15px;
+	}
+
+	.group-taxa {
+		display: inline-flex;
+		cursor: pointer;
+
+		&:hover {
+			background-color: theme-color("light") !important;
+		}
+	}
+
+	.taxa-name {
+		margin-left: 5px;
+		margin-right: 5px;
+		padding-left: 5px;
+		padding-right: 5px;
+		color: white;
+		font-weight: 500;
+		font-size: 14px;
+	}
+
+	.gray-200 {
+		background-color: $gray-300 !important;
+	}
+
+	.gray-400 {
+		background-color: $gray-400 !important;
+	}
+
+	.gray-500 {
+		background-color: $gray-500 !important;
+	}
+
+	.gray-600 {
+		background-color: $gray-600 !important;
+	}
+
+	.gray-700 {
+		background-color: $gray-700 !important;
+	}
+
+	.gray-800 {
+		background-color: $gray-800 !important;
+	}
+
+	.gray-900 {
+		background-color: $gray-900 !important;
+	}
+
+}
