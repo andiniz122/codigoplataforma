@@ -9,7 +9,7 @@ import * as serviceWorker from './serviceWorker';
 import axios from 'axios';
 
 axios.defaults.baseURL = 'http://localhost:3000';
-// axios.defaults.baseURL = 'https://api.eletricom.me'; // teste
+// axios.defaults.baseURL = 'https://api.eletricom.me'; 
 
 axios.interceptors.request.use(function (config) {
 	let loginData = JSON.parse(localStorage.getItem('login-data'));
